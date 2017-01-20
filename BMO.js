@@ -13,5 +13,8 @@ bmo.on('message', msg => {
   if (msg.content.startsWith ('bmo')) {
     msg.channel.sendMessage('I Am BMO!');
   }
+  if (msg.content.startsWith ('invite')) {
+    msg.channel.sendMessage('🤖 http://bit.ly/2jxrMTN');
+  }
 });
 bmo.login('token');
