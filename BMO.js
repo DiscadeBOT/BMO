@@ -18,3 +18,11 @@ bmo.on('message', msg => {
   }
 });
 bmo.login('token');
+//NOTES
+/*🇧
+
+
+
+
+
+*/
